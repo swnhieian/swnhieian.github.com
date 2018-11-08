@@ -75,11 +75,11 @@ class Menu extends Component {
                   CV
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>
-                    <a href="/WeinanShi-CV.pdf" target="_blank">English Version</a>
+                  <DropdownItem href="/WeinanShi-CV.pdf" target="_blank">
+                    English Version
                   </DropdownItem>
-                  <DropdownItem>
-                    <a href="/石伟男-简历.pdf" target="_blank">中文版</a>
+                  <DropdownItem href="/石伟男-简历.pdf" target="_blank">
+                    中文版
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>

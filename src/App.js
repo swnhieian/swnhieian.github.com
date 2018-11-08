@@ -5,7 +5,7 @@ import './App.css';
 import Publications from './Publications';
 import Footer from './Footer';
 import Contact from './Contact';
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {HashRouter, Route, Switch} from "react-router-dom";
 import {library} from '@fortawesome/fontawesome-svg-core';
 import { faVideo, faFilePdf, faEnvelope, faHome, faMapMarkerAlt, faChalkboardTeacher, faSchool, faBuilding} from '@fortawesome/free-solid-svg-icons';
 import { fab, faWeixin, faGithub, faFacebook, faTwitter, faWeibo } from '@fortawesome/free-brands-svg-icons'
@@ -18,7 +18,7 @@ class App extends Component {
   
   render() {
     return (
-      <Router basename="/">
+      <HashRouter>
         <div className="App">
           <Header></Header>
           <main id="main" className="pb-5">
@@ -31,7 +31,7 @@ class App extends Component {
           </main>
           <Footer></Footer>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }

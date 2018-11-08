@@ -17,8 +17,8 @@ class Home extends Component {
 				<p className="lead text-muted text-justify">
 					I am a PhD student at Department of Computer Science and Technology, Tsinghua University.
 					I mainly focus on <strong>Human Computer Interaction</strong>, supervised by&nbsp;
-					<a href="http://media.cs.tsinghua.edu.cn/~pervasive/shiyc/" target="_blank">Prof. Yuanchun Shi</a> and&nbsp;
-					<a href="http://pi.cs.tsinghua.edu.cn/lab/people/ChunYu/" target="_blank">Prof. Chun Yu</a>. I received my Bachelor's degree 
+					<a href="http://media.cs.tsinghua.edu.cn/~pervasive/shiyc/" target="_blank" rel="noopener noreferrer">Prof. Yuanchun Shi</a> and&nbsp;
+					<a href="http://pi.cs.tsinghua.edu.cn/lab/people/ChunYu/" target="_blank" rel="noopener noreferrer">Prof. Chun Yu</a>. I received my Bachelor's degree 
 					at Tsinghua University in 2016.
 					<br/><br/>
 					Currently, my research interest includes <strong>text entry techniques</strong>, <strong>smartphones and smartwatches</strong>,
@@ -59,35 +59,35 @@ class Home extends Component {
 			<Timeline>
             <TimelineEvent title="2017"
 						   createdAt=""
-						   titleStyle={{fontWeight: "bold", "font-size": "1.3em"}}
+						   titleStyle={{fontWeight: "bold", "fontSize": "1.3em"}}
 						   iconColor="#6fba1c"
-						   iconStyle={{'font-size': '1.3em'}}
+						   iconStyle={{'fontSize': '1.3em'}}
                            icon={<FA icon='chalkboard-teacher'></FA>}
             >
                 <h6><strong>Teaching assistant</strong> of Theory and Practice of Human Computer Interaction, Tsinghua University.</h6>
             </TimelineEvent>
             <TimelineEvent
 				title="2016"
-				titleStyle={{fontWeight: "bold", "font-size": "1.3em"}}
+				titleStyle={{fontWeight: "bold", "fontSize": "1.3em"}}
 				createdAt=""
 				iconColor="#03a9f4"
                 icon={<FA icon='building'></FA>}
             >
-                <h6><strong>Intern</strong> at <a href="http://www.cloudbeaver.com/" target="_blank">CloudBeaver Techonology (Beijing) Co., Ltd.</a></h6>
+                <h6><strong>Intern</strong> at <a href="http://www.cloudbeaver.com/" target="_blank" rel="noopener noreferrer">CloudBeaver Techonology (Beijing) Co., Ltd.</a></h6>
             </TimelineEvent>
 			<TimelineEvent
                 title="2016"
 				createdAt=""
-				titleStyle={{fontWeight: "bold", "font-size": "1.3em"}}
+				titleStyle={{fontWeight: "bold", "fontSize": "1.3em"}}
 				iconColor="#03a9f4"
                 icon={<FA icon='building'></FA>}
             >
-                <h6><strong>Intern</strong> at <a href="https://www.tencent.com/" target="_blank">Tencent Technology (Shenzhen) Co., Ltd.</a></h6>
+                <h6><strong>Intern</strong> at <a href="https://www.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent Technology (Shenzhen) Co., Ltd.</a></h6>
             </TimelineEvent>
 			<TimelineEvent
                 title="2014 ~ 2015"
 				createdAt=""
-				titleStyle={{fontWeight: "bold", "font-size": "1.3em"}}
+				titleStyle={{fontWeight: "bold", "fontSize": "1.3em"}}
 				iconColor="#6fba1c"
                 icon={<FA icon='school'></FA>}
             >

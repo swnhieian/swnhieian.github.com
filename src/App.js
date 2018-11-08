@@ -18,7 +18,7 @@ class App extends Component {
   
   render() {
     return (
-      <Router basename="http://shiweinan.com/">
+      <Router basename="/">
         <div className="App">
           <Header></Header>
           <main id="main" className="pb-5">

@@ -21,7 +21,7 @@ class Publications extends Component {
 				award: 'honorable',
 			  video: 'http://pi.cs.tsinghua.edu.cn/lab/videos/video-VIPBoard.mp4',
 			  paper: 'http://pi.cs.tsinghua.edu.cn/lab/papers/VIPBoard.pdf',
-			  img: 'http://pi.cs.tsinghua.edu.cn/wp-content/uploads/2019/04/thumbnail-VIPBoard-150x150.jpg'
+			  img: '/vipboard.png'
 			},
 		  {
 				title: 'Lip-Interact: Improving Mobile Device Interaction with Silent Speech Commands',

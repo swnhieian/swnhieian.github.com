@@ -12,6 +12,17 @@ class Publications extends Component {
 		super();
 		this.myName = "Weinan Shi";
 	  this.paperData = [
+			{
+				title: 'VIPBoard: Improving Screen-Reader Keyboard for Visually Impaired People with Character-Level Auto Correction',
+				url: 'https://dl.acm.org/citation.cfm?doid=3290605.3300747',
+			  conference: 'CHI 2019',
+			  authors: ['Weinan Shi', 'Chun Yu', 'Shuyi Fan', 'Feng Wang', 'Tong Wang', 'Xin Yi', 'Xiaojun Bi', 'Yuanchun Shi'],
+				abstract: 'Modern touchscreen keyboards are all powered by the word-level auto-correction ability to handle input errors. Unfortunately, visually impaired users are deprived of such benefit because a screen-reader keyboard offers only character-level input and provides no correction ability. In this paper, we present VIPBoard, a smart keyboard for visually impaired people, which aims at improving the underlying keyboard algorithm without altering the current input interaction. Upon each tap, VIPBoard predicts the probability of each key considering both touch location and language model, and reads the most likely key, which saves the calibration time when the touchdown point misses the target key. Meanwhile, the keyboard layout automatically scales according to users’ touch point location, which enables them to select other keys easily. A user study shows that compared with the current keyboard technique, VIPBoard can reduce touch error rate by 63.0% and increase text entry speed by 12.6%.',
+				award: 'honorable',
+			  video: 'http://pi.cs.tsinghua.edu.cn/lab/videos/video-VIPBoard.mp4',
+			  paper: 'http://pi.cs.tsinghua.edu.cn/lab/papers/VIPBoard.pdf',
+			  img: 'http://pi.cs.tsinghua.edu.cn/wp-content/uploads/2019/04/thumbnail-VIPBoard-150x150.jpg'
+			},
 		  {
 				title: 'Lip-Interact: Improving Mobile Device Interaction with Silent Speech Commands',
 				url: 'https://dl.acm.org/citation.cfm?id=3242599',
@@ -66,13 +77,14 @@ class Publications extends Component {
 			}
 		});
 		return (
-			<Row key={index} className="topspace publication mb-3">
+			<Row key={index} className="topspace publication mb-3 align-items-center">
 			   <Col md="3" sm="6" className="widget text-center mb-3">
-			      <img src={data.img} alt={data.title} className="rounded"></img>
+			      <img src={data.img} alt={data.title} className="rounded align-middle"></img>
 			   </Col>
 			   <Col md="9" sm="6" className="maincontent">
 			     <header className="page-header">
 				   	<h5 className="page-title"><a href={data.url} target="_blank" rel="noopener noreferrer">{data.title}</a></h5>
+						 {data.award === 'honorable' && (<h6><b><FA icon="award"></FA>&nbsp;&nbsp;Best Paper Honorable Mention Award (Top 5%)</b></h6>)}						 
 						<h6 className="page-authors align-middle"><Badge color="secondary" className="align-middle">{data.conference}</Badge>{' '}{authorLine}</h6>
 				   </header>
 					<div className="abstract">

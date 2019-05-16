@@ -7,10 +7,10 @@ import Footer from './Footer';
 import Contact from './Contact';
 import {HashRouter, Route, Switch} from "react-router-dom";
 import {library} from '@fortawesome/fontawesome-svg-core';
-import { faVideo, faFilePdf, faEnvelope, faHome, faMapMarkerAlt, faChalkboardTeacher, faSchool, faBuilding} from '@fortawesome/free-solid-svg-icons';
+import { faVideo, faFilePdf, faEnvelope, faHome, faMapMarkerAlt, faChalkboardTeacher, faSchool, faBuilding, faAward} from '@fortawesome/free-solid-svg-icons';
 import { fab, faWeixin, faGithub, faFacebook, faTwitter, faWeibo } from '@fortawesome/free-brands-svg-icons'
 import Redirect from 'react-router-dom/Redirect';
-library.add(faFilePdf, faVideo, faEnvelope, faHome, faMapMarkerAlt, faChalkboardTeacher, faSchool, faBuilding);
+library.add(faFilePdf, faVideo, faEnvelope, faHome, faMapMarkerAlt, faChalkboardTeacher, faSchool, faBuilding, faAward);
 library.add(fab, faWeixin, faGithub, faFacebook, faTwitter, faWeibo);
 
 

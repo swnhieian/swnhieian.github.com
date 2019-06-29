@@ -32,7 +32,7 @@ class Home extends Component {
 				<h2 className="section-title"><span>Education</span></h2>
 				<Row>
 					<Col md="2" sm="3">
-						<p className="text-right"><strong>2016.9 ~ Now</strong></p>
+						<p className="text-right"><strong>2016.9 ~ Present</strong></p>
 					</Col>
 					<Col md="10" sm="9">
 						<p className="text-left">
@@ -57,7 +57,7 @@ class Home extends Component {
 		<Container className="section featured topspace education">
 			<h2 className="section-title"><span>Experience</span></h2>
 			<Timeline>
-            <TimelineEvent title="2017"
+            <TimelineEvent title="2019, 2017"
 						   createdAt=""
 						   titleStyle={{fontWeight: "bold", "fontSize": "1.3em"}}
 						   iconColor="#6fba1c"

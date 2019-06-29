@@ -70,7 +70,11 @@ class Menu extends Component {
               <NavItem>
                 <NavLink to="/contact" activeClassName="active" tag={NavLinkRouter}>Contact</NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
+
+              <NavItem>
+                <NavLink href="/WeinanShi-CV.pdf" target="_blank" activeClassName="active">CV</NavLink>
+              </NavItem>
+              {/* <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   CV
                 </DropdownToggle>
@@ -82,7 +86,7 @@ class Menu extends Component {
                     中文版
                   </DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>
+              </UncontrolledDropdown> */}
             </Nav>
           </Collapse>
         </Navbar>
